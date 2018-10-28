@@ -5,6 +5,9 @@ function findMatching(list, name) {
   })
 }
 
-function fuzzyMatch(list, name) {
-  const drivers = [];
+function fuzzyMatch(list, partialName {
+  let lengthOfName = partialName.length;
+  return list.filter(function (driverName) {
+    return driverName.slic(0, lengthOfName) === partialName;
+  });
 }
