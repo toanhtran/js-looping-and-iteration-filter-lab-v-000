@@ -5,6 +5,6 @@ function findMatching(list, name) {
   })
 }
 
-function fuzzyMatch() {
+function fuzzyMatch(list, name) {
   const drivers = [];
 }
